@@ -7,14 +7,13 @@ A user-friendly web interface for Clara AI, an innovative voice assistant design
 - **Natural and Empathetic Conversations**: Engage users with realistic and supportive interactions
 - **Accessible Interface**: Specifically designed for elderly users with emphasis on simplicity and ease of use
 - **Advanced AI Integration**: Powered by OpenAI Realtime API for natural language processing
-- **Voice Interaction**: Support for both text and voice-based conversations
+- **Voice Interaction**: Support for voice-based conversations
 
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
 - **API**: OpenAI Realtime API
-- **Deployment**: [Deployment Platform TBD]
 
 ## 🚀 Getting Started
 
