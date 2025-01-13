@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clara AI</title>
+  <link rel="stylesheet" href="assets\css\styles.css">
+  <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="main-header">
+    <nav class="nav-container">
+      <div class="logo">
+        <h2>Clara AI</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- App container -->
+  <div class="app-container">
+    <div class="glass-panel">
+      <h1>Clara AI</h1>
+
+      <div class="robot-container">
+        <img src="assets\images\robot.png" alt="Robot icon" />
+        <div class="robot-shadow"></div>
+      </div>
+
+      <div class="controls glass-panel-inner">
+        <div class="status" id="connectionStatus">
+          <span class="status-dot"></span>
+          Connection: Not Connected
+        </div>
+
+        <div class="button-group">
+          <button id="startBtn">
+            <span class="button-content">Start</span>
+          </button>
+          <button id="stopBtn">
+            <span class="button-content">Stop</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets\js\script.js" defer></script>
+</body>
+</html>
